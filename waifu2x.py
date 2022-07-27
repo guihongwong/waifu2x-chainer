@@ -6,6 +6,7 @@ import time
 import chainer
 import numpy as np
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = None
 import six
 
 from lib import iproc
